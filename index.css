@@ -1,0 +1,23 @@
+body{background-color: rgb(189, 255, 179);}
+h1{position: absolute;
+left: 250px;
+top: 0px;}
+.animado {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  animation: mudarCor 2s infinite alternate;
+}
+
+@keyframes mudarCor {
+  from {
+    background-color: #09990e;
+  }
+  to {
+    background-color: #24188a;
+  }
+}
+
